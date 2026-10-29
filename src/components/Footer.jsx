@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <nav className="flex flex-col sm:flex-row gap-6 text-lg font-semibold text-gray-200">
+        {/* <nav className="flex flex-col sm:flex-row gap-6 text-lg font-semibold text-gray-200">
           {["Home", "Shop", "About", "Blog", "Contact"].map((link) => (
             <a
               key={link}
@@ -38,7 +38,7 @@ const Footer = () => {
               <span className="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-orange-500 transition-all duration-300"></span>
             </a>
           ))}
-        </nav>
+        </nav>  */}
 
         {/* Socials with Icons */}
         {/* <div className="flex gap-6 text-2xl text-white">
